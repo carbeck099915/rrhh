@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.deporteclass{}
+
+/*div{
+	padding-bottom:10px;
+	
+	
+}*/
+.borrar,.dignidad,.editar,.presi,.secre,.classtexto{
+	
+	}
+textarea{
+	resize:none;
+	
+	
+	}	.print{}
+	
+label.error{
+	font-size:9px;
+	}
+#fechasocultas,#establecerfechas{
+	visibility:hidden;
+	
+	
+	}

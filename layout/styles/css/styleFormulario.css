@@ -1,0 +1,153 @@
+/*==========================================
+=            Formulario del css            =
+==========================================*/
+
+/*======================================================
+=            estilos del formulario inicial            =
+======================================================*/
+
+.formularioIngreso {
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 450px;
+  overflow: hidden;
+}
+
+
+
+.formularioIngreso .inputContainer {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 5px;
+  overflow: hidden;
+  background: transparent;
+}
+
+
+.formularioIngreso .inputContainer .message {
+  color: #d32f2f;
+  background: #ff8a80;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  margin: 0;
+  line-height: 2.5em;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.1s ease;
+}
+
+
+.formularioIngreso .inputContainer label,
+.formularioIngreso .inputContainer input{
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+  line-height: .5em;
+  border: none;
+  font: inherit;
+}
+
+
+.formularioIngreso .inputContainer label {
+  display: inline-block;
+  font-size: .7em;
+  background: #e0e0e0;
+  color: rgba(0, 0, 0, 0.3);
+  line-height: 1.75em;
+  border-right: 1px solid #ccc;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 500px;
+}
+
+
+.formularioIngreso .inputContainer input {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.formularioIngreso .inputContainer input {
+  padding-left: 50px;
+}
+
+
+.formularioIngreso .submitBtn {
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 18px;
+  margin-top: 15px;
+  margin: auto;
+  width: auto;
+  cursor: pointer;
+}
+
+
+.formularioIngreso .inputContainer.success {
+  border-color: #26a69a;
+}
+
+.formularioIngreso .inputContainer.success label {
+  background: #26a69a;
+  border-color: #26a69a;
+}
+
+.formularioIngreso .inputContainer.error {
+  border-color: #e85454;
+}
+
+.formularioIngreso .inputContainer.error .message {
+  width: 100%;
+}
+
+.formularioIngreso .inputContainer.error:after {
+  font: 1.25em/2em FontAwesome;
+  color: #FF5C5C;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  content: "\f00d";
+}
+
+.formularioIngreso .inputContainer.error label {
+  background: #FF5C5C;
+  border-color: #e85454;
+}
+
+
+/*=====  End of estilos del formulario inicial  ======*/
+
+
+/*==========================================================
+=            Validación del formulario de roles            =
+==========================================================*/
+
+.inputContainerFormularioModal .message {
+  color: #d32f2f;
+  background: #ff8a80;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  margin: 0;
+  line-height: 2.5em;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.1s ease;
+}
+
+.inputContainerFormularioModal.error {
+  border-color: #e85454;
+}
+
+/*=====  End of Validación del formulario de roles  ======*/
+
+
+/*=====  End of Formulario del css  ======*/
